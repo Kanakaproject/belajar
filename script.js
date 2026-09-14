@@ -73,7 +73,7 @@ form.addEventListener('submit', (e) => {
   btn.disabled = true;
 
   setTimeout(() => {
-    note.textContent = `Terima kasih ${nama}! Pesan kamu sudah terkirim. Tim kami akan hubungi ke ${email} segera ✨`;
+    note.textContent = `Terima kasih ${nama}! Pesan kamu sudah terkirim. Tim Zaaa akan hubungi ke ${email} segera.`;
     note.className = 'form-note success';
     form.reset();
     btn.textContent = prev;
